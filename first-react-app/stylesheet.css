@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    display:flex;
+    flex-direction:column;
+  }
+
+/* header*/
+header{
+    text-align: center;
+    background-color: #333;
+    color:white;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+nav{
+    background-color: #333;
+    color:white;   
+}
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    padding: 1rem;
+}
+nav a:hover{
+    background-color: #555;
+}
+
+/*home*/
+
+.home-container{
+    display:flex;
+    flex-direction: row;  
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    height:fit-content;
+    background-color: #f0ecec;
+}
+
+.home-content-box{
+    text-align: center;
+    align-items: center;  
+    padding-top: 100px;
+}
+.home-item{
+    padding: 50px;
+    text-align: center;
+    align-items: center;  
+
+}
+
+
+#mypic{
+    width: 350px;
+    height : 350px;
+    border-radius: 50%;
+}
+
+/* about me*/
+.about-container{
+    display: flex;
+    background-color:#55541e;
+    color:white; 
+    flex-direction: column; 
+}
+
+.about-content-box h2{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.about-content-box p{
+     padding: 50px;
+     
+}
+
